@@ -1,0 +1,109 @@
+/* Styles for the entire table */
+.jobs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Header styles */
+.jobs-table thead {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+
+.jobs-table th {
+    padding: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Body and row styles */
+.jobs-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.jobs-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.jobs-table td {
+    padding: 12px;
+}
+
+/* Link styles */
+.jobs-table a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.jobs-table a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+.jobs-table button {
+    padding: 6px 12px;
+    margin: 4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.jobs-table button:hover {
+    opacity: 0.8;
+}
+
+/* Specific button colors */
+.jobs-table button:nth-child(1) { /* Accept button */
+    background-color: #28a745;
+    color: white;
+}
+
+.jobs-table button:nth-child(2) { /* Reject button */
+    background-color: #dc3545;
+    color: white;
+}
+
+.jobs-table button:nth-child(3) { /* Delete button */
+    background-color: #ffc107;
+    color: white;
+}
+
+/* Responsive table styles */
+@media (max-width: 768px) {
+    .jobs-table, .jobs-table thead, .jobs-table tbody, .jobs-table th, .jobs-table td, .jobs-table tr {
+        display: block;
+    }
+
+    .jobs-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .jobs-table tr {
+        margin: 0 0 1rem 0;
+    }
+
+    .jobs-table td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    .jobs-table td:before {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: calc(50% - 24px);
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        content: attr(data-label);
+        text-align: left;
+    }
+}

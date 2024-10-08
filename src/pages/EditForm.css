@@ -1,0 +1,14 @@
+.edit-form { display: flex; flex-direction: column; max-width: 300px; margin: 0 auto;
+}
+
+.edit-form label { margin-bottom: 10px;
+}
+
+.edit-form input { padding: 5px; margin-top: 5px;
+}
+
+.edit-form button { padding: 10px 20px; background-color: rgb(163, 211, 41); color: white; border: none; cursor: pointer;
+}
+
+.edit-form button:hover { background-color: rgb(163, 211, 41);
+}

@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section and main container */
+section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image container */
+.contact-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px; /* Add margin to move the image down */
+}
+
+.contact-image img {
+    max-width: 100%; /* Maintain image's aspect ratio */
+    max-height: 800px; /* Set maximum height for the image */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Add smooth zoom effect */
+}
+
+/* Zoom effect when hovering over the image */
+.contact-image img:hover {
+    transform: scale(1.1); /* Scale up image slightly */
+}
+
+/* Form and form elements */
+.registration-form {
+    padding: 20px;
+}
+
+.registration-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color:  rgb(163, 211, 41);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:  rgb(163, 211, 41);
+}

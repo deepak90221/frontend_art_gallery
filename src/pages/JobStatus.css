@@ -1,0 +1,29 @@
+/* JobStatus.css */
+.job-status-message {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.job-status-message h2 {
+    margin-top: 0;
+}
+
+.job-status-message p {
+    margin: 0;
+}
+
+.job-status-message.accepted {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.job-status-message.rejected {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}

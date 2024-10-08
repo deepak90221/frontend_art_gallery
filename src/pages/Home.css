@@ -1,0 +1,143 @@
+/* Home.css */
+
+/* Main container style */
+.home-container {
+    display: flex;
+    justify-content: space-between; /* Space between the left and right sections */
+    padding: 40px; /* Padding around the container */
+    height: 100vh; /* Full screen height */
+    box-sizing: border-box;
+}
+
+/* Left section style */
+/* Left section style */
+.home-left {
+    flex: 1; /* Take up half the space */
+    padding: 50px; /* Padding around the content */
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Vertically center the content */
+    font-size: 18px; /* Larger text size */
+    color: #343a40; /* Dark text color for readability */
+    text-align: center; /* Center align text */
+}
+
+/* Text styles */
+.home-intro {
+    margin-bottom: 20px; /* Margin below the elements */
+    font-size: 24px; /* Larger font size for intro */
+    font-weight: bold; /* Bold font weight */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.home-description {
+    margin-bottom: 30px; /* Increased margin below description */
+    line-height: 1.6; /* Adjusted line height for better readability */
+}
+
+h2 {
+    margin-bottom: 20px; /* Margin below the elements */
+    font-size: 22px; /* Larger font size for headings */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Button container style */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center align buttons */
+    margin-top: 30px; /* Margin above the container */
+}
+
+/* Button styles */
+.btn {
+    padding: 15px 25px; /* Increased padding inside the button */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #A3D329; /* Green color */
+    color: white; /* White text color */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s, background-color 0.3s; /* Transition effects */
+}
+
+/* Button hover effect */
+.btn:hover {
+    transform: translateY(-2px); /* Slight upward movement on hover */
+    background-color: #92bf25; /* Darker shade of green on hover */
+}
+
+
+/* Right section style */
+.home-right {
+    flex: 1; /* Take up half the space */
+    display: flex;
+    align-items: center; /* Vertically center the image */
+    justify-content: center; /* Horizontally center the image */
+}
+
+/* Image style */
+.home-image {
+    width: 100%; /* Make the image fill the container space */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle 3D shadow effect */
+}
+
+/* Text styles */
+.home-intro, .home-description, h2 {
+    margin-bottom: 20px; /* Margin below the elements */
+}
+
+/* Button container style */
+.button-container {
+    display: flex;
+    gap: 20px; /* Gap between buttons */
+    margin-top: 30px; /* Margin above the container */
+}
+
+/* Button styles */
+.btn {
+    padding: 15px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #A3D329; /* Green color */
+    color: white; /* White text color */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s, background-color 0.3s; /* Transition effects */
+}
+
+/* Button hover effect */
+.btn:hover {
+    transform: translateY(-2px); /* Slight upward movement on hover */
+    background-color: #92bf25; /* Darker shade of green on hover */
+}
+
+/* Info section style */
+.info-section {
+    margin-top: 20px; /* Margin above the section */
+    padding: 15px 30px; /* Padding inside the box */
+    background-color: #f0f4f7; /* Light gray-blue background color */
+    border: 1px solid #cbd5e0; /* Light gray border */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle 3D shadow effect */
+    width: 100%; /* Full width of the page */
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: space-between; /* Space between each paragraph */
+}
+
+/* Style for info-section paragraphs */
+.info-section p {
+    flex: 1; /* Allow each paragraph to take up equal space */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Padding around each paragraph */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Bold text */
+    color: #343a40; /* Dark text color for readability */
+    border-right: 1px solid #cbd5e0; /* Add right border between items */
+}
+
+/* Remove right border from the last paragraph */
+.info-section p:last-child {
+    border-right: none; /* No right border for the last paragraph */
+}

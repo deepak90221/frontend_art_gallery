@@ -1,0 +1,141 @@
+
+
+.coding-exam-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+
+.timer-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timer-card p {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .quiz-button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-questions {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 10px;
+  }
+  
+  .editor-container {
+    margin-bottom: 20px;
+  }
+  
+  .code-editor {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .language-dropdown {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .language-dropdown select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .attempted-questions {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(163, 211, 41);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .submission-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-buttons button:first-child {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .modal-buttons button:last-child {
+    background-color: rgb(163, 211, 41);
+    color: white;
+  }
+  

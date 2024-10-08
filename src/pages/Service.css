@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section styles */
+.service-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+/* Container styles */
+.service-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Heading styles */
+.service-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input styles */
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Grid styles */
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Card styles */
+.service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(33.333% - 20px); /* Adjust based on number of cards per row */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image styles */
+.service-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Details styles */
+.service-details {
+    padding: 20px;
+}
+
+/* Info styles */
+.service-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Title styles */
+.service-title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Description styles */
+.service-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(163, 211, 41);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: rgb(143, 181, 21);
+}

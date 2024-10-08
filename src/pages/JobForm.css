@@ -1,0 +1,89 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif; /* Specify a fallback font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the form and image */
+.job-application .container {
+  display: flex;
+  justify-content: space-between; /* Align image and form horizontally */
+  align-items: center; /* Align image and form vertically (optional) */
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for the application image */
+.job-application .application-image {
+  text-align: center;
+  margin-bottom: 1rem; /* Adjust as needed */
+}
+
+/* Styles for the application form */
+.job-application .application-form {
+  width: 100%; /* Form takes up full width within the container */
+}
+
+/* Styles for the form heading */
+.job-application .heading {
+  text-align: center; /* Center align the heading */
+  margin-bottom: 1rem; /* Add some space below the heading */
+}
+
+/* Styles for each form group */
+.job-application .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Styles for form labels */
+.job-application .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Styles for text input fields */
+.job-application .form-group input[type="text"],
+.job-application .form-group input[type="email"],
+.job-application .form-group input[type="tel"] {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%; /* Adjust width as needed */
+}
+
+/* Styles for file input field */
+.job-application .form-group input[type="file"] {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Styles for the select dropdown */
+.job-application .form-group select {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
+
+/* Styles for the submit button */
+.job-application .btn {
+  padding: 1rem 2rem;
+  background-color:  rgb(163, 211, 41); /* Green */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.job-application .btn:hover {
+  background-color:  rgb(163, 211, 41);
+}

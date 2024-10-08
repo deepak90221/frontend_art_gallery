@@ -1,0 +1,81 @@
+/* Header styles */
+header {
+    background-color: rgb(163, 211, 41); /* Set the background color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Container styles */
+.container {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Logo styles */
+.Logo-symbol {
+    font-size: 30px;
+    font-weight: bold;
+    color: white; /* Set the logo text color to white */
+}
+
+.Logo-symbol a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from the parent */
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+
+
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    list-style-type: none; 
+
+}
+
+/* NavLink styles */
+nav ul li a {
+    text-decoration: none; /* Remove underline from navigation links */
+    color: white; /* Adjust the color as desired */
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent; /* Transparent background */
+}
+
+
+/* Navigation links styles */
+a.nav-link {
+    text-decoration: none; /* Remove underline from navigation links */
+    color: white; /* Set the text color of navigation links to white */
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent; /* Transparent background color */
+}
+
+nav ul li a:hover {
+    text-decoration: none; /* Keep underline removed on hover */
+    background-color: transparent; /* Keep background transparent on hover */
+    color: white; /* Maintain white color on hover */
+}

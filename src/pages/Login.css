@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section and main container */
+section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    max-width: 1400px; /* Increased max-width */
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Increased padding */
+}
+
+/* Image container */
+.login-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-image img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Add smooth zoom effect */
+}
+
+/* Zoom effect when hovering over the image */
+.login-image img:hover {
+    transform: scale(1.1); /* Scale up image slightly */
+}
+
+/* Form and form elements */
+.registration-form {
+    padding: 40px; /* Increased padding */
+}
+
+.registration-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap between form elements */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color:  rgb(163, 211, 41);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:  rgb(163, 211, 41);
+}
+
+/* Styling for feedback messages */
+.feedback-message {
+    margin-bottom: 15px; /* Add space below the feedback message */
+    padding: 10px; /* Padding for consistent spacing */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center-align the message text */
+}
+
+.success-message {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text color */
+}
+
+.error-message {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text color */
+}

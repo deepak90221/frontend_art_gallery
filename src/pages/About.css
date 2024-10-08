@@ -1,0 +1,97 @@
+/* About.css */
+
+/* Button style */
+.about-buttons {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space between buttons */
+}
+
+.btn {
+    padding: 12px 24px; /* Add padding to buttons */
+    background-color: rgb(163, 211, 41); /* Green button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    font-size: 16px; /* Font size */
+    text-decoration: none; /* Remove default underline */
+}
+
+.btn:hover {
+    background-color: #4caf50; /* Darker green background color on hover */
+}
+
+/* Rest of your CSS styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container style */
+.about-container {
+    padding: 40px;
+    background: linear-gradient(to right, #ffffff, #f3f4f6);
+}
+
+/* Header style */
+.about-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Content style */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Equal-width columns */
+    gap: 20px; /* Space between columns */
+    align-items: center; /* Align items vertically */
+    height: 100%; /* Make the height consistent */
+}
+
+/* Description style */
+.about-description {
+    padding: 20px; /* Padding around the content */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow effect */
+    height: 100%; /* Make the height consistent */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Vertically center the content */
+}
+
+.about-description p {
+    margin-bottom: 10px; /* Margin below each paragraph */
+    color: #343a40; /* Dark text color */
+    line-height: 1.5; /* Improved readability */
+}
+
+/* Image style */
+.about-image img {
+    width: 100%; /* Full width of the image container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow effect */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+    height: 100%; /* Make the height consistent */
+}
+
+/* Zoom effect on hover */
+.about-image img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}

@@ -1,0 +1,69 @@
+/* Error.css */
+
+/* Main container */
+.error-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 85vh; /* Full screen height */
+    background-color: #f9f9f9; /* Light gray background */
+    box-sizing: border-box;
+}
+
+/* Error content */
+.error-left {
+    text-align: center; /* Center the text within the container */
+    padding: 40px; /* Increased padding around the content */
+    margin: 0;
+    width: 80%; /* Use 80% of the container's width for a larger box */
+    background-color: white; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow effect */
+}
+
+/* 404 error letter */
+.error-left h1 {
+    font-size: 200px; /* Very large font size */
+    font-weight: bold; /* Bold text */
+    color: #e74c3c; /* Red color */
+    margin-bottom: 20px; /* Margin below the error letter */
+}
+
+/* Error message */
+.error-left h2 {
+    font-size: 36px; /* Medium font size */
+    margin-bottom: 20px;
+}
+
+/* Error description */
+.error-left p {
+    font-size: 18px; /* Smaller font size */
+    color: #555; /* Gray text color */
+    line-height: 1.5;
+    margin-bottom: 20px; /* Margin below the description */
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+    justify-content: center; /* Center buttons */
+    margin-top: 50px; /* Increased margin above the buttons */
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px; /* Increased padding for the buttons */
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(163, 211, 41); /* Lime green color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline from NavLink */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: rgb(144, 187, 40); /* Slightly darker green on hover */
+}
